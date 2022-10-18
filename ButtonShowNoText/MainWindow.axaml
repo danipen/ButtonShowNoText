@@ -1,0 +1,18 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="ButtonShowNoText.MainWindow"
+        Title="ButtonShowNoText">
+  <DockPanel Name="mToolbarPanel">
+    <StackPanel Orientation="Horizontal" DockPanel.Dock="Top">
+      <Button Name="mShowView1Button">Show view 1</Button>
+      <Button Name="mShowView2Button">Show view 2</Button>
+      <Button Name="mShowContainer">Show buttons</Button>
+      <Button Name="mHideContainer">Hide buttons</Button>
+    </StackPanel>
+    <DockPanel Name="mTheContainerPanel">
+    </DockPanel>
+  </DockPanel>
+</Window>
